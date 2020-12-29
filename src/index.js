@@ -1,5 +1,6 @@
 const MovingObject = require('./moving_object');
 window.MovingObject = MovingObject; //just so we have access so we can test
+
 document.addEventListener('DOMContentLoaded', function(){
     
     const canvasEl = document.getElementById('game-canvas');
