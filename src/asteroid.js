@@ -3,8 +3,6 @@ const { inherits } = require('./utils.js');
 const util = require('./utils.js');
 
 
-
-
 CONSTANTS = {
     COLOR: "pink",
     RADIUS: 10,
