@@ -16,7 +16,7 @@ function Asteroid (options) {
     options.vel = options.vel || randomVec()
     options.color = CONSTANTS.COLOR;
     options.radius= CONSTANTS.RADIUS;
-    options.pos = options.pos
+    options.pos = options.pos || options.game.randomPosition
 
     MovingObject.call(this, options)
 }
