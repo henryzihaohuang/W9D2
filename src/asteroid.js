@@ -3,7 +3,7 @@ const { inherits } = require('./utils.js');
 const util = require('./utils.js');
 
 
-Util.inherits(Asteroid, MovingObject);
+
 
 CONSTANTS = {
     COLOR: "pink",
@@ -21,3 +21,5 @@ function Asteroid (options) {
     MovingObject.call(this, options)
 }
 window.Asteroid = Asteroid;
+
+Util.inherits(Asteroid, MovingObject);
